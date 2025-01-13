@@ -1,0 +1,16 @@
+twitter_bot/
+├── .env                    # Environment variables
+├── .gitignore             # Git ignore file
+├── README.md              # Project documentation
+├── requirements.txt       # Project dependencies
+├── src/
+│   ├── __init__.py
+│   ├── bot.py            # Main bot logic
+│   ├── config.py         # Configuration handling
+│   └── utils/
+│       ├── __init__.py
+│       ├── ai.py         # Claude AI integration
+│       └── scraper.py    # Twitter scraping logic
+└── tests/
+    ├── __init__.py
+    └── test_bot.py       # Bot tests
